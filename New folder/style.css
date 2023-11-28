@@ -1,0 +1,36 @@
+body {
+    background-image: url('cat.png');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #ff6b81; /* Text color */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+h2 {
+    color: #42a5f5; /* Blue color for the question */
+    font-size: 2em; /* Bigger text for the question */
+}
+
+button {
+    margin: 10px;
+    padding: 15px 25px; /* Increased padding for larger buttons */
+    font-size: 1.2em; /* Bigger font size for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #f8c6d1; /* Pastel pink background for buttons */
+    color: #ffffff; /* White text for buttons */
+}
+
+button:hover {
+    background-color: #f7a8b8; /* Slightly darker pink on hover */
+}
